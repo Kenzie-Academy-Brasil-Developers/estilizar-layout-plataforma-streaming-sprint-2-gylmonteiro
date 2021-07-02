@@ -21,18 +21,65 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 	body{
-
-	}
+		padding: 0;
+		max-width: 858px;
+		/* border: 2px solid red; */
+		margin: auto;
+		background-color: #00002e;
+		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+		}
 
 /*TOPO*/
-	header.topo{
+header.topo{
 		
 	}
 
+#kenzieFlix{
+	text-align: center;
+}
 /*RODAPÉ*/
 	
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
-		
+.pg-home{
+		display: flex;
 	}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+.user, img {
+	width: 186px;
+}
+
+figcaption{
+	visibility: hidden;
+}
+ul {
+	padding: 0;
+	width: 858px;
+	list-style: none;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: ;
+	justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	background-color: #00002e;
+	color: white;
+	padding: 10px;
+}
